@@ -8,11 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7690407-f897-4c24-a56c-1328ccb042d0" name="Changes" comment="Repo init">
-      <change afterPath="$PROJECT_DIR$/client/Player.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/Banker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/BingoCard.cs" afterDir="false" />
+    <list default="true" id="e7690407-f897-4c24-a56c-1328ccb042d0" name="Changes" comment="Implemented BingoCard filling">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.networked_bingo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.networked_bingo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/client/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/client.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/client/client.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/Banker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/server/Banker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/BingoCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/server/BingoCard.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/server/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +22,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -39,7 +45,8 @@
   "keyToString": {
     ".NET Project.server.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "development",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -101,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718400132567</updated>
-      <workItem from="1718400133631" duration="7435000" />
+      <workItem from="1718400133631" duration="10343000" />
     </task>
     <task id="LOCAL-00001" summary="Repo init">
       <option name="closed" value="true" />
@@ -111,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718400792510</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented BingoCard filling">
+      <option name="closed" value="true" />
+      <created>1718413996195</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718413996195</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +145,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="HEAD" />
+                        <option value="development" />
                       </list>
                     </value>
                   </entry>
@@ -145,23 +160,37 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Repo init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repo init" />
+    <MESSAGE value="Implemented BingoCard filling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented BingoCard filling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/server/Program.cs</url>
-          <line>5</line>
+          <line>14</line>
           <properties documentPath="C:\Users\JohnMorales\repos\networked_bingo\server\Program.cs" containingFunctionPresentation="">
             <startOffsets>
-              <option value="119" />
+              <option value="293" />
             </startOffsets>
             <endOffsets>
-              <option value="154" />
+              <option value="328" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/server/Program.cs</url>
+          <line>12</line>
+          <properties documentPath="C:\Users\JohnMorales\repos\networked_bingo\server\Program.cs" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="272" />
+            </startOffsets>
+            <endOffsets>
+              <option value="291" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

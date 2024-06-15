@@ -11,19 +11,26 @@ public class BingoCard
 
     private void FillBingoCells(int maxNumber)
     {
-        Random rnd_numbers = new Random();
-
+        Random rndNumbers = new Random();
+        List<int> AddedNumbers = new List<int>();
         for (int x = 0; x < _bingoCells.GetLength(0); x++)
         {
             for (int y = 0; y < _bingoCells.GetLength(1); y++)
             {
                 if (_bingoCells[x,y] is null)
                 {
-                    _bingoCells[x,y] = new BingoCell(rnd_numbers.Next(maxNumber + 1));
+                    while (true)
+                    {
+                        int rndNumber = rndNumbers.Next(maxNumber) + 1;
+                        if (!AddedNumbers.Contains(rndNumber))
+                        {
+                            _bingoCells[x,y] = new BingoCell(rndNumber);
+                            break;
+                        }
+                    }
                 }
             }
         }
-        
     }
 }
 

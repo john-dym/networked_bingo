@@ -2,5 +2,6 @@
 
 using server;
 
-BingoCard firstCard = new BingoCard();
+
+
 Console.WriteLine("Hello, World!");
